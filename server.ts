@@ -105,7 +105,7 @@ async function startServer() {
   }
 
   httpServer.listen(PORT, '0.0.0.0', () => {
-    console.log(`Server running on http://localhost:${PORT}`);
+    console.log(`server running on http://localhost:${PORT}`);
   });
 
   // Socket.io for real-time logs
@@ -116,7 +116,7 @@ async function startServer() {
     });
   });
 
-  // Export io for use in services
+  // Export io services
   app.set('io', io);
 }
 
