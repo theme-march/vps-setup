@@ -3,7 +3,7 @@
   "outputDirectory": "dist",
   "functions": {
     "api/**/*.ts": {
-    "runtime": "nodejs@20.x"
+     "runtime": "nodejs"
     }
   },
   "rewrites": [
