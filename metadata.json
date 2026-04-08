@@ -1,0 +1,5 @@
+{
+  "name": "Remix: Vortex Deploy",
+  "description": "A self-hosted, Vercel-like deployment platform for VPS. Manage projects, git integrations, and automated deployments with Nginx and PM2.",
+  "requestFramePermissions": []
+}
